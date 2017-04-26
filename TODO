@@ -1,6 +1,1 @@
-refactor code to return: {
-  type: node type? or maybe dif type?
-  node1: the value of the first node
-  node2: value of second node
-  score: think of a function to compute a diff score
-}
+TODO think of score compare function
