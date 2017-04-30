@@ -228,7 +228,7 @@ describe('Error collection', function() {
       var result = compare(doc1, doc2, {
         comparators: {
           ATTRIBUTE_NODE: function(e, a) {
-            if (e.nodeName == 'attr') {
+            if (e.nodeName === 'attr') {
               if (e.nodeValue > a.nodeValue)
                 return 'Actual value is less than expected';
               else if (e.nodeValue < a.nodeValue)
